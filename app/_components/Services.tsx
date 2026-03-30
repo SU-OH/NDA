@@ -99,15 +99,15 @@ export default function Services() {
             <div className="mt-12 md:mt-16 flex justify-center">
               <button
                 onClick={() => setPricingOpen(true)}
-                className="group flex items-center gap-3 px-8 py-4 border border-nda-black/10 rounded-sm hover:border-nda-red hover:bg-nda-red transition-all duration-300 cursor-pointer"
+                className="group flex items-center gap-4 px-12 py-5 border border-nda-black/10 rounded-sm hover:border-nda-red hover:bg-nda-red transition-all duration-300 cursor-pointer"
               >
-                <span className="text-nda-red text-sm font-light tracking-wider group-hover:text-nda-white transition-colors duration-300" aria-hidden="true">
+                <span className="text-nda-red text-base font-light tracking-wider group-hover:text-nda-white transition-colors duration-300" aria-hidden="true">
                   +
                 </span>
-                <span className="font-display text-lg md:text-xl tracking-wide text-nda-black group-hover:text-nda-white transition-colors duration-300">
+                <span className="font-display text-2xl md:text-3xl tracking-wide text-nda-black group-hover:text-nda-white transition-colors duration-300">
                   VIEW PRICING
                 </span>
-                <span className="text-nda-muted text-xs tracking-wider font-light group-hover:text-nda-white/60 transition-colors duration-300">
+                <span className="text-nda-muted text-sm tracking-wider font-light group-hover:text-nda-white/60 transition-colors duration-300">
                   가격 안내
                 </span>
               </button>

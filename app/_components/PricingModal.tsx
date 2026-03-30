@@ -14,7 +14,7 @@ const pricingData = [
     title: "기업소개 웹사이트",
     subtitle: "Corporate Website",
     pages: "5 ~ 7 페이지",
-    price: "약 50만원",
+    price: "약 100만원",
     extra: "+ α",
     details: [
       "회사 소개 / 연혁",
@@ -30,7 +30,7 @@ const pricingData = [
     title: "쇼핑몰",
     subtitle: "E-Commerce",
     pages: "15 ~ 20 페이지",
-    price: "약 200만원",
+    price: "약 250만원",
     extra: "+ α",
     details: [
       "상품 등록 / 관리",
@@ -46,16 +46,15 @@ const pricingData = [
     title: "AI 서비스 개발",
     subtitle: "AI Service",
     pages: "10+ 페이지",
-    price: "약 300만원",
+    price: "약 350만원",
     extra: "+ α",
     details: [
       "AI 모델 통합 / API 연동",
       "사용자 인터페이스",
       "데이터 처리 파이프라인",
       "사용량 대시보드",
-      "AI 토큰 비용 별도",
     ],
-    note: "AI 토큰 사용량에 비례하여 운영비 산정",
+    note: "AI 모델 및 기능 복잡도에 따라 변동",
     highlighted: true,
   },
   {
@@ -63,7 +62,7 @@ const pricingData = [
     title: "전자결재 시스템",
     subtitle: "Approval System",
     pages: "20+ 페이지",
-    price: "약 400만원",
+    price: "약 450만원",
     extra: "+ α",
     details: [
       "결재 라인 / 워크플로우",
@@ -130,14 +129,6 @@ export default function PricingModal({ open, onClose }: PricingModalProps) {
           >
             <X size={18} />
           </button>
-        </div>
-
-        {/* Pricing note */}
-        <div className="px-6 md:px-10 py-4 bg-nda-surface border-b border-nda-black/5">
-          <p className="text-nda-muted text-xs md:text-sm font-light tracking-wider">
-            기본 산정 기준 : 페이지당 ₩100,000 &nbsp;/&nbsp; 기능 개발은 AI
-            토큰 사용량에 비례하여 별도 산정
-          </p>
         </div>
 
         {/* Cards */}
